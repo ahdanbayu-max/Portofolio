@@ -35,22 +35,6 @@ window.addEventListener('scroll', () => {
   });
 });
 
-// 3. Logika Efek Mengetik Otomatis - KALIMAT UTUH & HANYA NAMA YANG HIJAU
-window.addEventListener('DOMContentLoaded', () => {
-  if (document.querySelector('.typing-text') && typeof Typed !== 'undefined') {
-    new Typed('.typing-text', {
-      strings: [
-        'I am <span style="color: var(--color-green-mid); font-weight: 700;">Akhdan Bayu</span>, Crafting digital experiences as a UI/UX Designer & Web Developer. <span style="color: var(--color-green-mid);">✦</span>'
-      ],
-      typeSpeed: 40,       // Kecepatan mengetik kalimat
-      backSpeed: 20,       // Kecepatan menghapus kalimat jika diulang
-      backDelay: 4000,     // Menahan kalimat selama 4 detik sebelum diulang
-      loop: true,          // Efek mengetik terus berulang otomatis
-      contentType: 'html'  // Wajib ada agar tag warna hijau di atas bisa terbaca browser
-    });
-  }
-});
-
 // 4. Logika Animasi Memudar Halus Saat Halaman Di-scroll (Scroll Reveal Sensor)
 function revealElements() {
   const reveals = document.querySelectorAll('.reveal');
