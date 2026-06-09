@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akhdan Bayu — UI/UX Designer & Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <nav class="nav-inner">
+      <a href="#" class="nav-logo">Akhdan Bayu</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Hire Me</a>
+      <button class="nav-hamburger" onclick="toggleMenu()" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+    <div class="nav-mobile" id="nav-mobile">
+      <a href="#about"      onclick="toggleMenu()">About</a>
+      <a href="#experience" onclick="toggleMenu()">Experience</a>
+      <a href="#skills"     onclick="toggleMenu()">Skills</a>
+      <a href="#projects"   onclick="toggleMenu()">Projects</a>
+      <a href="#contact"    onclick="toggleMenu()">Contact</a>
+      <a href="#contact" class="nav-cta" onclick="toggleMenu()">Hire Me</a>
+    </div>
+  </header>
+
+ <section class="hero" id="about">
+    <div class="hero-inner">
+
+      <!-- Left: text -->
+      <div class="hero-content">
+        <p class="hero-available">Available for Freelance</p>
+        
+        <h1 class="hero-title">
+  <span class="typing-text"></span>
+</h1>
+        
+        <p class="hero-desc">
+          An Information Systems student at Universitas Brawijaya with experience in corporate internships and freelance projects. I focus on creating clean, intuitive, and impactful digital experiences.
+        </p>
+      </div>
+
+      <!-- Right: profile card -->
+      <div class="hero-card-wrap">
+  <div class="hero-card">
+
+    <img
+      src="Gambar/Photo.png"
+      alt="Photo Profile"
+      class="hero-card-photo"
+    >
+
+    <div class="hero-card-badge">
+      <span class="hero-badge-label">Based in Indonesia</span>
+      <span class="hero-badge-value">Universitas Brawijaya</span>
+    </div>
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  <section class="exp-edu reveal" id="experience">
+    <div class="exp-edu-inner">
+
+      <div>
+        <div class="section-heading">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/>
+          </svg>
+          <h2>Experience</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <p class="timeline-date">2026 – Present</p>
+            <p class="timeline-role">Staff Artopolis</p>
+            <p class="timeline-org">Sponfund Filkom</p>
+          </div>
+          <div class="timeline-item">
+            <p class="timeline-date">2025</p>
+            <p class="timeline-role">Generative AI</p>
+            <p class="timeline-org">Certification Generative AI</p>
+            <p class="timeline-desc">Using AI for Design</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="section-heading">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/>
+          </svg>
+          <h2>Education</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <p class="timeline-date">2025 – Present</p>
+            <p class="timeline-role">Universitas Brawijaya</p>
+            <p class="timeline-desc">Focusing on UI/UX Design and Frontend Engineering. Current GPA: 3.6/4.0</p>
+          </div>
+          <div class="timeline-item">
+            <p class="timeline-date">2023 – 2025</p>
+            <p class="timeline-role">Sekolah Darma Bangsa</p>
+            <p class="timeline-desc">Active member of the student council and Head of Religious Affairs Division.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="skills-section reveal" id="skills">
+    <div class="skills-inner">
+
+      <div class="skills-left">
+        <h2>Specialized In</h2>
+        <ul class="skills-list">
+          <li>Wireframing &amp; Prototyping</li>
+          <li>Design Systems</li>
+        </ul>
+      </div>
+
+      <div class="skills-right">
+        <div class="skills-right-header">
+          <h3>Knowledge.</h3>
+          <span class="badge-leveling">Leveling Up!</span>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-chip chip-figma">Figma</div>
+          <div class="skill-chip chip-canva">Canva</div>
+          <div class="skill-chip chip-js">JS</div>
+          <div class="skill-chip chip-html">HTML</div>
+          <div class="skill-chip chip-css">CSS</div>
+          <div class="skill-chip chip-more">+</div>
+        </div>
+        <p class="skills-quote">"Always leveling up my skill like a game!"</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="projects-section" id="projects">
+    <div class="projects-inner">
+      <div class="projects-header">
+        <h2>Selected Projects.</h2>
+      </div>
+
+      <div class="projects-list">
+
+        <div class="project-row reveal">
+          <div class="project-image">
+            <img src="Gambar/Study.png" alt="Study Space" class="project-img">
+          </div>
+          <div class="project-content">
+            <h3>Study Space.</h3>
+            <p>A web-based platform designed to help students and remote workers discover ideal visual environments.</p>
+            <div class="project-tags">
+              <span class="tag">Location Based Service</span>
+              <span class="tag">Website</span>
+            </div>
+            <a href="https://arjunrizki12.github.io/Tugas-Akhir-DDAP/" target="_blank" class="project-link">
+              Explore Study Space
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                <polyline points="15 3 21 3 21 9"/>
+                <line x1="10" y1="14" x2="21" y2="3"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-row reverse reveal">
+          <div class="project-content">
+            <h3>Portfolio.</h3>
+            <p>A personal Portfolio website serving as a digital showcase for selected UI/UX design concepts and web development works.</p>
+            <div class="project-tags">
+              <span class="tag">Website</span>
+              <span class="tag">UI/UX Design</span>
+            </div>
+            <a href="#about" class="project-link">
+              Explore Portfolio
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                <polyline points="15 3 21 3 21 9"/>
+                <line x1="10" y1="14" x2="21" y2="3"/>
+              </svg>
+            </a>
+          </div>
+          <div class="project-image">
+            <img src="Gambar/portofolio.png" alt="Portfolio" class="project-img">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-wrap">
+      <div class="contact-inner">
+        <div class="contact-section">
+          <div class="contact-text">
+            <h2>Have a project<br>in mind?</h2>
+            <p>I'm always open to discussing product design work or partnership opportunities.</p>
+          </div>
+          <div class="contact-right">
+            <a href="mailto:akhdan@email.com" class="contact-cta-btn">
+              Get In Touch ↓
+            </a>
+            <div class="contact-socials">
+              <a href="https://www.linkedin.com/in/akhdan-bayu-851313378" target="_blank" class="social-link" aria-label="LinkedIn">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/>
+                </svg>
+              </a>
+              <a href="https://www.instagram.com/akh.bayu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="social-link" aria-label="Instagram">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                </svg>
+              </a>
+              <a href="https://wa.me/6282280159845" target="_blank" class="social-link" aria-label="WhatsApp">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-name">AKHDAN BAYU</span>
+        <span class="footer-copy">© 2026 Akhdan Bayu. Fueled by caffeine.</span>
+      </div>
+      <ul class="footer-links">
+        <li><a href="https://www.linkedin.com/in/akhdan-bayu-851313378" target="_blank">LinkedIn</a></li>
+        <li><a href="https://www.instagram.com/akh.bayu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram</a></li>
+        <li><a href="https://wa.me/6282280159845" target="_blank">WhatsApp</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.jsdelivr.net"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
