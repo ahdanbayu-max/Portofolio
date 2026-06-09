@@ -694,10 +694,13 @@ a   { text-decoration: none; color: inherit; }
 }
 
 @media (max-width: 768px) {
-  :root {
-    --section-px: 20px;
-    --section-py: 48px;
+  /* ... kode lainnya ... */
+
+  .contact-socials {
+    justify-content: center;
+    width: 100%;
   }
+}
 
   /* Navbar */
   .nav-links,
