@@ -694,10 +694,12 @@ a   { text-decoration: none; color: inherit; }
 }
 
 @media (max-width: 768px) {
-  /* ... kode lainnya ... */
+  .contact-right {
+    align-items: center; 
+  }
 
   .contact-socials {
-    justify-content: center;
+    justify-content: center; 
     width: 100%;
   }
 }
