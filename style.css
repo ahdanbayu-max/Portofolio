@@ -15,6 +15,8 @@
   --color-bg-warm:#ebe7db;
   --color-bg-section:#f4f2ec;
   --color-border:#ddd6ca;
+  --color-rust:#d97706;
+  --color-rust-bg:#fef3c7;
   --font-display:'Manrope',sans-serif;
   --font-mono:'Geist Mono',monospace;
   --max-w:1280px;
@@ -208,7 +210,7 @@ a   { text-decoration: none; color: inherit; }
 .hero-card {
   position: relative;
   width: 430px;
-  max-width: 100%; /* Ditambahkan agar kartu tidak jebol melebihi layar HP */
+  max-width: 100%;
   border-radius: 12px;
   overflow: hidden;
   background: #fff;
@@ -693,7 +695,6 @@ a   { text-decoration: none; color: inherit; }
   }
 }
 
-
 @media (max-width: 768px) {
   :root {
     --section-px: 20px;
@@ -710,7 +711,7 @@ a   { text-decoration: none; color: inherit; }
     display: flex;
   }
 
-  /* Hero Mobile Layout: Foto Di Atas, Teks Di Bawah (Sesuai Gambar 1 & 2) */
+  /* Hero Mobile Layout: Foto Di Atas, Teks Di Bawah */
   .hero-inner {
     flex-direction: column-reverse; 
     gap: 32px;
@@ -723,7 +724,7 @@ a   { text-decoration: none; color: inherit; }
     margin: 0 auto;
   }
 
-  /* Judul Perkenalan Mobile: Teks dipastikan muncul, ukuran pas & responsif */
+  /* Judul Perkenalan Mobile */
   .hero-title {
     font-size: 26px !important;
     line-height: 1.3 !important;
@@ -765,7 +766,7 @@ a   { text-decoration: none; color: inherit; }
     direction: ltr;
   }
 
-  
+  /* Contact Mobile */
   .contact-section {
     flex-direction: column;
     align-items: center;
