@@ -1,4 +1,3 @@
-// 1. Logika Toggle Menu Mobile (Hamburger)
 function toggleMenu() {
   const menu = document.getElementById('nav-mobile');
   if (menu) {
@@ -6,7 +5,6 @@ function toggleMenu() {
   }
 }
 
-// Menutup menu mobile otomatis jika mengklik di luar area menu
 document.addEventListener('click', function(e) {
   const menu = document.getElementById('nav-mobile');
   const btn = document.querySelector('.nav-hamburger');
@@ -15,7 +13,6 @@ document.addEventListener('click', function(e) {
   }
 });
 
-// 2. Logika Navigasi Aktif Otomatis Saat Di-scroll (Highlight Active Link)
 const sections = document.querySelectorAll('section[id]');
 const navLinks = document.querySelectorAll('.nav-links a');
 
@@ -35,7 +32,6 @@ window.addEventListener('scroll', () => {
   });
 });
 
-// 4. Logika Animasi Memudar Halus Saat Halaman Di-scroll (Scroll Reveal Sensor)
 function revealElements() {
   const reveals = document.querySelectorAll('.reveal');
   
